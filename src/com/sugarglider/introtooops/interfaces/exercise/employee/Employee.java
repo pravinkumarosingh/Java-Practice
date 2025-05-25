@@ -17,6 +17,8 @@ public class Employee implements Manager,Director{
         Manager manager = new Employee();
         manager.generateReports();
 
+        new Employee().submitReports();
+
         Director director = new Employee();
         director.generateReports();
     }
