@@ -10,10 +10,9 @@ public class Student {
     private ArrayList<Integer> listOfMarks = new ArrayList<Integer>();
     Student(String name, int... listOfMarks){
         this.name = name;
-        for(int mark:listOfMarks){
+        for(int mark:listOfMarks) {
             this.listOfMarks.add(mark);
         }
-        ;
     }
 
     public String getName(){
