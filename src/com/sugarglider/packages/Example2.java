@@ -44,5 +44,8 @@ public class Example2 {
         double absolute = Math.abs(-24.45);
         System.out.println("absolute:- " + absolute);
 
+        double power = Math.pow(24.0,2);
+        System.out.println("power:- " + power);
+
     }
 }
