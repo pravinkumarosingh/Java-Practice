@@ -47,5 +47,12 @@ public class Example2 {
         double power = Math.pow(24.0,2);
         System.out.println("power:- " + power);
 
+        //sqrt(double a) method returns the square root of the given number.
+        double squareRoot = Math.sqrt(4);
+        System.out.println("square root:- " + squareRoot);
+
+        //cbrt(double a) method returns the cube root of a number.
+        double cubeRoot = Math.cbrt(8.0);
+        System.out.println("cube root:- " + cubeRoot);
     }
 }
